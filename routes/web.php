@@ -12,4 +12,5 @@ use Illuminate\Support\Facades\Route;
 Route::view("/login","login");
 Route::post("/login",[UserController::class,'login']);
 Route::get("/",[ProductController::class,'index']);
-Route::get("/details",[ProductController::class,'details']);
+Route::get("details/{id}",[ProductController::class,'details']);
+Route::get("search",[ProductController::class,'search']);

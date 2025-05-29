@@ -29,3 +29,12 @@ body {
     float: left;
     width: 20%;
 }
+
+.detail-img{
+    height: 200px;
+    margin-top: 10px;
+}
+
+.search-box{
+    width: 500px !important
+}
