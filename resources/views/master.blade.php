@@ -7,6 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="{{ url('/') }}/css/style.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"
@@ -18,7 +20,6 @@
         integrity="sha384-w76A09cG02f2eMNp+5zyYkFZrjIEjigbWQK/Hl5f0XquCwBvN5Dk5FQ2v5F2Y1p+" crossorigin="anonymous">
     </script>
 
-
     <title>E-Com Project</title>
 </head>
 
@@ -28,12 +29,5 @@
     {{ View::make('footer') }}
 </body>
 
-{{-- <script>
-    $(document).ready(function() {
-        $("button").click(function() {
-            alert("all set")
-        })
-    })
-</script> --}}
 
 </html>

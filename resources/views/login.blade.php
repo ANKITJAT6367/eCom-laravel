@@ -1,25 +1,5 @@
 @extends('master')
 @section('content')
-    <style>
-        body {
-            background-color: #f4f6f9;
-        }
-
-        .login-box {
-            max-width: 400px;
-            margin: 80px auto;
-            padding: 40px;
-            background: white;
-            border-radius: 10px;
-            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-        }
-
-        .login-box h2 {
-            text-align: center;
-            margin-bottom: 30px;
-        }
-    </style>
-    </head>
 
     <body>
 

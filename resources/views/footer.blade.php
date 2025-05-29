@@ -1,4 +1,4 @@
-<footer class="bg-dark text-white pt-5 pb-4">
+<footer style="clear: both" class="bg-dark text-white pt-5 pb-4">
     <div class="container text-md-left">
         <div class="row text-md-left">
 
@@ -57,9 +57,4 @@
 </footer>
 
 
-<style>
-    footer a:hover {
-        color: #f8c146 !important;
-        transition: 0.3s;
-    }
-</style>
+
