@@ -38,3 +38,10 @@ body {
 .search-box{
     width: 500px !important
 }
+
+.card-list-devider{
+    border-bottom: 2px solid #ccc;
+    /* margin-bottom: 20px;
+    padding-bottom: 20px; */
+    padding: 30px;
+}
