@@ -27,7 +27,7 @@
             <!-- Right-side Add to Cart -->
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Add To Cart</a>
+                    <a class="nav-link" href="#">Cart(0)</a>
                 </li>
                 {{-- <li class="nav-item">
                     <a class="nav-link" href="#">Add To Cart</a>

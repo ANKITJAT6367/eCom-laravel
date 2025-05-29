@@ -25,9 +25,9 @@
 
         <div class="login-box">
             <h2>Login</h2>
-            <form method="POST" action="/login">
+            <form method="POST" action="login">
                 <!-- CSRF Token for Laravel -->
-                <!-- @csrf -->
+                @csrf
                 <div class="mb-3">
                     <label for="email" class="form-label">Email address</label>
                     <input type="email" class="form-control" id="email" name="email" placeholder="Enter email" required>
